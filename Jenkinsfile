@@ -15,8 +15,7 @@ pipeline {
 
         stage('2. Application Build & Test') {
             steps {
-                bat 'C:\\Users\\VVCE\\AppData\\Local\\Programs\\Python\\Python311\\python.exe -m py_compile app.py'
-            }
+              C:\\Users\\Ramya C\\AppData\\Local\\Python\\pythoncore-3.11-64\\python.exe
         }
 
         stage('3. Build & Tag Docker Image') {
